@@ -4,6 +4,8 @@
 
 Get an IIS Express process running in the current or selected directory, and open a browser to that site. This is mainly useful when you're playing with frontend stuff and want to browse a site in a directory. It's necessary to run most sites off a server rather than `file://` urls, since you don't need to specify a directory specific `<base>` tag in your pages.
 
+Tested on Windows 7 with IIS Express 8.0
+
 ## Install
 - Save `serve.bat` somewhere.
 - Update `serve.reg`, changing the paths in the command keys to the location where you saved `serve.bat`
