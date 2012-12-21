@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\IIS Express Here]
+@="IIS Express Here"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\IIS Express Here\command]
+@="\"D:\\Programs\\bin\\serve.bat\" \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shell\IIS Express Here]
+@="IIS Express Here"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shell\IIS Express Here\command]
+@="\"D:\\Programs\\bin\\serve.bat\" \"%1\""
